@@ -31,8 +31,6 @@ yarn install
 yarn dev
 ```
 
-![Yarn run dev server screenshot](./doc/media/yarn-dev-screenshot.png)
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ### Modes and Environment Variables
@@ -52,4 +50,5 @@ Environment variables are looked up in the following places, in order, stopping 
 `.env`
 
 Learn more: https://nextjs.org/docs/basic-features/environment-variables
+
 # todo-react-b-dnd
