@@ -5,9 +5,6 @@ import { resetServerContext } from "react-beautiful-dnd"
 type Props = {}
 
 class MyDocument extends Document<Props> {
-  /* 
-   * fix the clinet/server error using resetServerContext()
-   */
   static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
     const initialProps = await Document.getInitialProps(ctx)
     resetServerContext()
